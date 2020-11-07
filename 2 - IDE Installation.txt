@@ -1,0 +1,1 @@
+Install Anaconda and COnfigure Spyder with the help of video lecture
