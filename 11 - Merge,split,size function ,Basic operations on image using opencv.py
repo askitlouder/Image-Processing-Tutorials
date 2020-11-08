@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 """
 #Read an Image---
-img = cv2.imread("H:\\Data\\pikachu.jpg")
+img = cv2.imread("Data\\pikachu.jpg")
 img = cv2.resize(img,(600,400))
 cv2.imshow("res",img)
 print("shape==",img.shape) #returns a tuple of number of rows, columns, and channels
