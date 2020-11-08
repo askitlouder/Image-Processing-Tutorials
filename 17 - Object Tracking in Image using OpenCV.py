@@ -9,7 +9,7 @@
 import cv2
 import numpy as np
 """
-frame = cv2.imread('H:\\Data\\color_balls.jpg')
+frame = cv2.imread('Data\\color_balls.jpg')
 while True:
     
 
