@@ -4,7 +4,7 @@ import cv2
 import numpy as np
 
 #read image
-img = cv2.imread("H:\\Data\\roi_opr.jpg")
+img = cv2.imread("Data\\roi_opr.jpg")
 img = cv2.resize(img,(800,800))
 
 #Now extract  area of interest from an image
