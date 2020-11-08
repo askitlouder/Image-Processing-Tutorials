@@ -14,7 +14,7 @@
 import cv2 
 import numpy as np
 
-img = cv2.imread("H:\\Data\\black_white.png",0)
+img = cv2.imread("Data\\black_white.png",0)
 img = cv2.resize(img,(300,300))
 cv2.imshow("data",img)
 
