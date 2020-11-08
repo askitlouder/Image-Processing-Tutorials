@@ -6,9 +6,9 @@ import cv2
 import numpy as np
 
 #read two different images of same channel
-img1 = cv2.imread("H:\\Data\\roi_opr.jpg")
+img1 = cv2.imread("Data\\roi_opr.jpg")
 img1 = cv2.resize(img1,(500,700))
-img2 = cv2.imread("H:\\Data\\bro_thor.jpg")
+img2 = cv2.imread("Data\\bro_thor.jpg")
 img2 = cv2.resize(img2,(500,700))
 cv2.imshow("thor==",img1)
 cv2.imshow("bro_thor==",img2)
