@@ -10,11 +10,11 @@ import cv2
 import numpy as np
 
 
-original_image = cv2.imread("H:\\Data\\green.jpg")
+original_image = cv2.imread("Data\\green.jpg")
 original_image = cv2.resize(original_image,(600,650))
 hsv_original = cv2.cvtColor(original_image, cv2.COLOR_BGR2HSV)
 
-roi = cv2.imread("H:\\Data\\g.jpg")
+roi = cv2.imread("Data\\g.jpg")
 hsv_roi = cv2.cvtColor(roi, cv2.COLOR_BGR2HSV)
 
 
