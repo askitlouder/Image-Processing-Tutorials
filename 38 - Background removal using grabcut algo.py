@@ -16,7 +16,7 @@ Created on Sun Nov  1 19:43:18 2020
 import	numpy  as  np
 import	cv2
 
-img  =	cv2.imread('H:\\Data\\car.jpg')
+img  =	cv2.imread('Data\\car.jpg')
 img = cv2.resize(img,(800,800))
 mask =	np.zeros(img.shape[:2],np.uint8)
  
