@@ -21,7 +21,7 @@ import numpy as np
 
 
 #load image into gray scale
-img = cv2.imread("H:\\Data\\page.jpg")
+img = cv2.imread("Data\\page.jpg")
 img = cv2.resize(img,(400,300))
 img_gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 
