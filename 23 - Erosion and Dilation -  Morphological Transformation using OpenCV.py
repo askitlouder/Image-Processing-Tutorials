@@ -18,7 +18,7 @@ import numpy as np
 
 
 
-img = cv2.imread('H:\\Data\\col_balls.jpg',0)
+img = cv2.imread('Data\\col_balls.jpg',0)
 _,mask= cv2.threshold(img,230,255,cv2.THRESH_BINARY_INV)
 kernel = np.ones((2,2),np.uint8)# 5x5 kernel with full of ones. 
 e = cv2.erode(mask,kernel) #optional parameters   iterations = 2
