@@ -20,7 +20,7 @@ import cv2
 import numpy as np
 """
 #load image into gray scale
-img = cv2.imread("H:\\Data\\building.jpg")
+img = cv2.imread("Data\\building.jpg")
 img = cv2.resize(img,(600,700))
 img_gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 
@@ -39,7 +39,7 @@ cv2.destroyAllWindows()
 #building trackbar with canny edge
 
 #load image into gray scale
-img = cv2.imread("H:\\Data\\building.jpg")
+img = cv2.imread("Data\\building.jpg")
 img = cv2.resize(img,(600,700))
 img_gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 
