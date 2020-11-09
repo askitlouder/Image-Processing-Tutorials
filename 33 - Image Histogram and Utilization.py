@@ -31,7 +31,7 @@ cv2.destroyAllWindows()
 
 #with color image--------------------
 
-img = cv2.imread("H:\\Data\\thor.jpg")
+img = cv2.imread("Data\\thor.jpg")
 img = cv2.resize(img,(500,650))
 b, g, r = cv2.split(img)
 cv2.imshow("img", img)
