@@ -46,7 +46,7 @@ count = 0
 
 while True:
   if ret == True:
-      cv2.imwrite("H:\\frames\\imgN%d.jpg" % count, image)     # save frame as JPEG file
+      cv2.imwrite("frames\\imgN%d.jpg" % count, image)     # save frame as JPEG file
       vidcap.set(cv2.CAP_PROP_POS_MSEC,(count**100)) #used to hold speed of frane generation
       ret,image = vidcap.read()
       cv2.imshow("res",image)
