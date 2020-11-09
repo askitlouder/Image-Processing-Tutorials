@@ -13,7 +13,7 @@ import numpy as np
 #Opening --
 #Opening is just another name of erosion followed by dilation. 
 #means first erosion take place then dilation
-img = cv2.imread('H:\\Data\\col_balls.jpg',0)
+img = cv2.imread('Data\\col_balls.jpg',0)
 _,mask= cv2.threshold(img,230,255,cv2.THRESH_BINARY_INV)
 kernel = np.ones((3,3),np.uint8)# 5x5 kernel with full of ones. 
 o = cv2.morphologyEx(mask,cv2.MORPH_OPEN,kernel) #optional parameters iterations = 2
@@ -58,7 +58,7 @@ cv2.destroyAllWindows()
 
 #Example with all morphological operations
 """
-img = cv2.imread('H:\\Data\\girl.jpg',0)
+img = cv2.imread('Data\\girl.jpg',0)
 img = cv2.resize(img,(300,300))
 _,mask= cv2.threshold(img,220,255,cv2.THRESH_BINARY_INV)
 kernel = np.ones((2,2),np.uint8)# 5x5 kernel with full of ones. 
