@@ -4,7 +4,7 @@ import cv2 as cv
 import numpy as np
 from matplotlib import pyplot as plt
 
-img = cv.imread('H:\\Data\\hero1.jpg',0)
+img = cv.imread('Data\\hero1.jpg',0)
 _, th1 = cv.threshold(img, 50, 255, cv.THRESH_BINARY)
 _, th2 = cv.threshold(img, 200, 255, cv.THRESH_BINARY_INV)
 _, th3 = cv.threshold(img, 127, 255, cv.THRESH_TRUNC)
