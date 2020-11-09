@@ -21,7 +21,7 @@ import numpy as np
 
 
 #load image into gray scale
-img = cv2.imread("H:\\Data\\avengers.jpg")
+img = cv2.imread("Data\\avengers.jpg")
 img = cv2.resize(img,(700,700))
 
 #Gaussian Pyramid Have 2 function-1) cv2.pyrUp(),2)-cv2.pyrDown()
@@ -46,7 +46,7 @@ cv2.destroyAllWindows()
 #using loop to generate pyramid
 #load image into gray scale
 """
-img = cv2.imread("H:\\Data\\avengers.jpg")
+img = cv2.imread("Data\\avengers.jpg")
 img = cv2.resize(img,(700,700))
 
 img1 = img.copy()
