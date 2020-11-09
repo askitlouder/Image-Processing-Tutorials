@@ -15,10 +15,10 @@ under the template image.
 import cv2
 import numpy as np
 
-img = cv2.imread("H:\\Data\\avengers.jpg")
+img = cv2.imread("Data\\avengers.jpg")
 
 grey_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-template = cv2.imread("H:\\Data\\temp.jpg", 0)
+template = cv2.imread("Data\\temp.jpg", 0)
 w, h = template.shape[::-1]
 
 #this function accept prameters (img,template,method)
