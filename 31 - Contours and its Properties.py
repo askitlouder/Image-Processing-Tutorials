@@ -7,7 +7,7 @@ Created on Sat Oct 31 13:43:55 2020
 import cv2
 import numpy as np
 
-img = cv2.imread("H:\\Data\\hand.jpg")
+img = cv2.imread("Data\\hand.jpg")
 img = cv2.resize(img,(600,700))
 img1 = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 
