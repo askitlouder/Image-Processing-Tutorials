@@ -18,7 +18,7 @@ import cv2
 import numpy as np
 
 
-img = cv2.imread("H:\\Data\\noisy.jpg")  
+img = cv2.imread("Data\\noisy.jpg")  
 img = cv2.resize(img,(400,400))
 cv2.imshow("original==",img)
 #define a kernal for homogeneous function
