@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 
 
-img = cv2.imread("H:\\Data\\thor.jpg")
+img = cv2.imread("Data\\thor.jpg")
 img = cv2.resize(img,(600,700))
 
 #Creating Blank Image---
