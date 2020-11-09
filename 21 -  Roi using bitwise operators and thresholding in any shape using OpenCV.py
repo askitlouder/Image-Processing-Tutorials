@@ -4,8 +4,8 @@ import cv2
 import numpy as np
 
 # Load two images
-img1 = cv2.imread("H:\\Data\\hero1.jpg")
-img2 = cv2.imread("H:\\Data\\strom_breaker.jpg")
+img1 = cv2.imread("Data\\hero1.jpg")
+img2 = cv2.imread("Data\\strom_breaker.jpg")
 
 
 img1 = cv2.resize(img1,(1024,650))
