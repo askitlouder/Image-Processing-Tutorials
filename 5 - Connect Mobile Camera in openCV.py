@@ -75,7 +75,28 @@ cv2.destroyAllWindows()
 """
 
 
+from vidgear.gears import CamGear
+import cv2
 
+stream = CamGear(source='https://www.youtube.com/watch?v=dQw4w9WgXcQ', stream_mode = True, logging=True).start()
+
+# infinite loop
+while True:
+    
+    frame = stream.read()
+
+    if frame is None:
+        break
+    
+    
+    cv2.imshow("Output Frame", frame)
+
+    key = cv2.waitKey(25) & 0xFF
+    if key == ord("q"):
+        break
+
+cv2.destroyAllWindows()
+stream.stop()
 
 
 
